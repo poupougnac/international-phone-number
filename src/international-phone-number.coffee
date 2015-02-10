@@ -29,6 +29,7 @@ angular.module("internationalPhoneNumber", []).directive 'internationalPhoneNumb
       preferredCountries: ['us', 'gb']
       responsiveDropdown: false
       utilsScript:        ""
+      autoPlaceholder:    true
 
     angular.forEach options, (value, key) ->
       return unless attrs.hasOwnProperty(key) and angular.isDefined(attrs[key])
