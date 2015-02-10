@@ -30,7 +30,8 @@
           onlyCountries: void 0,
           preferredCountries: ['us', 'gb'],
           responsiveDropdown: false,
-          utilsScript: ""
+          utilsScript: "",
+          autoPlaceholder: true
         };
         angular.forEach(options, function(value, key) {
           var option;
